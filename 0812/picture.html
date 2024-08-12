@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image객체 (이미지 로딩)</title>
+    <style> img { width: 200px; }</style>
+    <script>
+        let files = [ "./img/2.jpg", "./img/3.jpg","./img/1.jpg"];
+        let imgs = [];
+        for(let i = 0 ; i < files.length;i ++){
+            imgs[i] = new Image();  // 이미지 객체 생성
+            imgs[i].src = files[i]; // 해당 이미지 객체에 이미지 위치지정 (load 이벤트가 일어남)
+        }
+        let next =1;
+        function change(obj){
+            obj.src = imgs[next].src;
+            next ++;
+            next %= imgs.length;//  개수를 넘으면 처음으로.
+        }
+        
+        let myImg;
+        let interval;
+        window.onload = function(){
+            myImg = document.getElementById('img_id');
+            interval = setInterval(fn_right,1000);// 1초마다 오른쪽으로 
+            // 이미지에 마우스를 올리면 멈추도록
+            myImg.onmouseover = function(){
+                 clearInterval(interval);
+                 myImg.style.opacity = 0.5;
+            }
+            // 이미지에서 다시 마우스를 아웃하면 움직이도록
+            myImg.onmouseout = function (){
+                interval = setInterval(fn_right, 1000);
+                myImg.style.opacity = 1;
+            }
+        }
+        function fn_left(){
+            if(next == 0){
+                next = imgs.length - 1;  // 마지막 이미지가 나오도록
+            }else{
+                next--;
+            }
+            myImg.src = imgs[next].src;
+        }
+        function fn_right(){
+            if(next == imgs.length-1){  // 현재 인덱스가 마지막 이미지 라면 처음 이미지로
+                next = 0 ;
+            }else{
+                next++;
+            }
+            myImg.src = imgs[next].src;
+        }
+
+    </script>
+</head>
+<body>
+    <h3>이미지를 클릭하면 다음 이미지를 보여줍니다.</h3>
+    <hr>
+    <div>
+        <!-- 왼쪽 버튼을 클릭하면 이전 이미지가 -->
+        <button type="button" onclick="fn_left()"> < </button>
+        <img id="img_id" src="./img/1.jpg" alt="" onclick="change(this)">
+        <!-- 오른쪽 버튼을 클릭하면 다음 이미지가 출력되도록 -->
+        <button type="button" onclick="fn_right()"> > </button>
+    </div>
+</body>
+</html>
