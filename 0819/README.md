@@ -1,5 +1,3 @@
-
-markdown
 # Java HTTP GET 요청에서 `BufferedReader`와 `while` 루프 사용 설명
 
 ## 개요
@@ -67,13 +65,6 @@ inputLine = in.readLine()의 결과를 먼저 inputLine 변수에 할당합니�
 이를 통해 서버의 응답을 한 줄씩 읽고, 더 이상 읽을 줄이 없을 때까지 반복합니다.
 결론
 이 문서에서 다룬 while 루프와 BufferedReader를 사용하는 방법은 Java에서 HTTP 요청에 대한 응답을 효율적으로 처리하는 중요한 기법입니다. 코드를 정확하게 작성하지 않으면 의도한 대로 동작하지 않을 수 있으므로, 이번 예제에서 다룬 바와 같이 연산자 우선순위와 변수 할당에 주의해야 합니다.
-
-go
-코드 복사
-
-이 `README.md` 파일은 `BufferedReader`와 `while` 루프를 사용하는 방법을 설명하며, 코드를 이해하고 올바르게 수정할 수 있도록 도와줍니다.
-
-
 
 
 
