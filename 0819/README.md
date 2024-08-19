@@ -1,70 +1,36 @@
-# Java HTTP GET 요청에서 `BufferedReader`와 `while` 루프 사용 설명
+모듈 패스(Module Path)와 클래스 패스(Class Path)는 Java에서 클래스를 찾기 위해 사용하는 두 가지 개념입니다. 두 개념 모두 애플리케이션이 필요한 클래스를 찾는 데 사용되지만, Java의 진화와 함께 모듈 패스가 추가되면서 개념과 사용법이 달라졌습니다.
 
-## 개요
+1. 클래스 패스 (Class Path)
+클래스 패스는 Java 프로그램이 컴파일 및 실행 시에 필요한 클래스를 찾는 데 사용되는 경로입니다. Java 8까지는 클래스 패스가 주로 사용되었습니다.
 
-이 문서는 Java에서 HTTP GET 요청을 수행할 때 `BufferedReader`와 `while` 루프를 사용하는 방법을 설명합니다. 특히, `while` 루프 내부에서 `BufferedReader`의 `readLine()` 메서드를 호출하여 서버의 응답을 읽는 부분에 초점을 맞추고 있습니다.
+구성 방법:
 
-## 코드 개요
+클래스 파일이 포함된 디렉터리 경로 또는 JAR 파일 경로를 지정할 수 있습니다.
+클래스 패스는 -classpath (또는 -cp) 옵션을 사용하여 명령줄에서 지정하거나, 환경 변수 CLASSPATH를 통해 설정할 수 있습니다.
+예:
 
-다음 코드는 HTTP GET 요청을 보내고, 서버의 응답을 읽어오는 예제입니다. 이 과정에서 `BufferedReader`와 `while` 루프를 사용하여 데이터를 한 줄씩 읽어옵니다.
+java -cp .:lib/myjar.jar MyClass
+이 명령은 현재 디렉토리(.)와 lib/myjar.jar 파일을 클래스 패스에 추가하고, MyClass를 실행합니다.
+제한사항:
 
-```java
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URL;
-import javax.net.ssl.HttpsURLConnection;
+클래스 패스는 단순히 클래스 파일이나 JAR 파일의 목록을 기반으로 클래스들을 로드합니다. 이 구조는 모듈화가 지원되지 않으므로, 큰 프로젝트나 라이브러리 관리에서 충돌이 발생할 수 있습니다.
+2. 모듈 패스 (Module Path)
+Java 9부터 도입된 모듈 시스템은 애플리케이션을 모듈화하는 기능을 제공합니다. 모듈 패스는 모듈 시스템에서 모듈을 찾는 경로를 지정하는 데 사용됩니다.
 
-public class Api01 {
+구성 방법:
 
-    public static void main(String[] args) throws IOException {
-        String allurl = "https://api.upbit.com/v1/market/all";
-        URL url = new URL(allurl);
-        HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
-        conn.setRequestMethod("GET");
-        conn.setReadTimeout(5000);
-        conn.setDoInput(true);
-        
-        int resCode = conn.getResponseCode();
-        if (resCode == HttpsURLConnection.HTTP_OK) {
-            System.out.println(resCode);
-            
-            BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-            String inputLine;
-            StringBuffer response = new StringBuffer();
-            
-            // 수정된 while 루프
-            while ((inputLine = in.readLine()) != null) {
-                response.append(inputLine);
-            }
-            in.close();
-            System.out.println(response);
-        }
-    }
-}
-BufferedReader와 readLine() 메서드
-BufferedReader는 문자 입력 스트림에서 텍스트를 효율적으로 읽을 수 있도록 버퍼링을 제공하는 클래스입니다. 이 클래스는 줄 단위로 데이터를 읽는 데 자주 사용됩니다.
-readLine() 메서드는 입력 스트림에서 한 줄을 읽고, 줄의 끝에 도달하면 null을 반환합니다.
-while 루프에서 readLine() 사용
-잘못된 코드 예시
-java
-코드 복사
-while(inputLine = in.readLine() != null) {
-    response.append(inputLine);
-}
-위 코드는 문법적으로 오류를 포함하고 있습니다. inputLine = in.readLine() != null에서 != 연산자가 in.readLine()의 결과에 먼저 적용되므로, inputLine은 boolean 값을 가지게 됩니다. 이로 인해 코드가 의도한 대로 동작하지 않으며, 컴파일 오류가 발생합니다.
+모듈 패스는 하나 이상의 모듈이 포함된 디렉터리 경로를 지정할 수 있습니다.
+모듈 패스는 --module-path 옵션을 사용하여 지정합니다.
+예:
 
-수정된 코드 설명
-java
-코드 복사
-while ((inputLine = in.readLine()) != null) {
-    response.append(inputLine);
-}
-inputLine = in.readLine()의 결과를 먼저 inputLine 변수에 할당합니다.
-그 다음, 할당된 값이 null인지 확인합니다. null이 아니라면 response에 해당 줄을 추가합니다.
-이를 통해 서버의 응답을 한 줄씩 읽고, 더 이상 읽을 줄이 없을 때까지 반복합니다.
-결론
-이 문서에서 다룬 while 루프와 BufferedReader를 사용하는 방법은 Java에서 HTTP 요청에 대한 응답을 효율적으로 처리하는 중요한 기법입니다. 코드를 정확하게 작성하지 않으면 의도한 대로 동작하지 않을 수 있으므로, 이번 예제에서 다룬 바와 같이 연산자 우선순위와 변수 할당에 주의해야 합니다.
+java --module-path mods -m mymodule/com.example.Main
+이 명령은 mods 디렉터리를 모듈 패스로 설정하고, mymodule 모듈 안의 com.example.Main 클래스를 실행합니다.
+특징 및 장점:
 
-
-
+모듈화: 모듈 시스템을 통해 코드베이스를 더 구조적으로 관리할 수 있으며, 모듈 간의 명시적인 의존성을 정의할 수 있습니다.
+캡슐화: 모듈 내에서 공개된 패키지와 비공개 패키지를 명확히 구분할 수 있습니다.
+의존성 관리: 모듈 간의 의존성을 명시적으로 관리하여, 클래스 패스에서 흔히 발생하던 JAR 충돌 문제를 해결할 수 있습니다.
+주요 차이점 요약
+클래스 패스는 Java 8 이하에서 주로 사용되며, 단순히 클래스 파일과 JAR 파일의 경로를 설정하는 방식입니다.
+모듈 패스는 Java 9 이상에서 도입된 모듈 시스템을 기반으로 하며, 애플리케이션을 더 구조적이고 명확하게 모듈화할 수 있습니다.
+Java 9 이후의 모듈 시스템은 대규모 프로젝트에서 코드의 복잡성과 의존성을 관리하기 위한 강력한 도구를 제공합니다.
