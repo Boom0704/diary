@@ -1,0 +1,67 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Result04 {
+	public static void main(String[] args) {
+		int elevatorA = 10; // 임의의 엘리베이터 A의 위치
+		int elevatorB = 4; // 임의의 엘리베이터 B의 위치
+
+		elevator(elevatorA, elevatorB);
+	}
+
+	public static void elevator(int elevatorA, int elevatorB) {
+		Scanner scan = new Scanner(System.in);
+
+		final String ACTIVE_ELEVATOR_A = "승강기 A"; // 상수로 고정
+		final String ACTIVE_ELEVATOR_B = "승강기 B";
+
+		while (true) {
+			System.out.println("******* 엘리베이터 ********");
+			System.out.println("승강기 A의 현재 위치 : " + elevatorA);
+			System.out.println("승강기 B의 현재 위치 : " + elevatorB);
+			System.out.println("몇층이세요?  [종료 : q, Q, exit, EXIT, Exit]");
+			String input = (scan.nextLine()).trim();
+
+			String[] quit = { "q", "Q", "exit", "EXIT", "Exit" };
+			boolean shouldQuit = false;
+			for (String s : quit) {
+				if (s.equals(input)) {
+					shouldQuit = true;
+					break;
+				}
+			}
+
+			if (shouldQuit) {
+				System.out.println("프로그램 종료");
+				break;
+			}
+
+			int num = Integer.parseInt(input);
+			boolean isABig = elevatorA > elevatorB;
+			String activeElevator = "";
+			if (Math.abs(elevatorA - num) == Math.abs(elevatorB - num)) {
+				if (!isABig) {
+					activeElevator = ACTIVE_ELEVATOR_B;
+					elevatorB = num;
+				} else {
+					activeElevator = ACTIVE_ELEVATOR_A;
+					elevatorA = num;
+				}
+			} else if (Math.abs(elevatorA - num) < Math.abs(elevatorB - num)) {
+				activeElevator = ACTIVE_ELEVATOR_A;
+				elevatorA = num;
+				System.out.println((Math.abs(elevatorA - num)));
+				System.out.println((Math.abs(elevatorB - num)));
+				System.out.println(Math.abs(elevatorA - num) > Math.abs(elevatorB - num));
+			} else if (Math.abs(elevatorA - num) > Math.abs(elevatorB - num)) {
+				activeElevator = ACTIVE_ELEVATOR_B;
+				elevatorB = num;
+			}
+			System.out.println(activeElevator + "가 " + input + "으로 이동했습니다. ");
+		}
+
+		scan.close();
+	}
+
+}
