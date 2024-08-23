@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery 테스트 페이지</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $.ajax({
+                    url  : 'https://api.upbit.com/v1/market/all'
+                    , method : 'get'
+                    , data : {}
+                    ,success : function(res){
+                        console.log(res);
+                    }, error : function(xhr, status, error){
+
+                    }
+                })
+            })
+        })
+    </script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <button id="btn">ff</button>
+</body>
+
+</html>
