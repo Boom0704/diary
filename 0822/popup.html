@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팝업창</title>
+</head>
+<body>
+    <h3>팝업 입니다.</h3>
+    <h4>공지내용 블라블라 ~</h4>
+    <hr>
+    2분 동안은 다시 안보기 <input type="checkbox" name="ckb">
+    <button onclick="fn_check()">닫기</button>
+    
+    <script src="cookie.js"></script>
+     <script>
+         function fn_check(){
+             // 날짜 생성 
+             // 
+             // 체크박스 checked가 true 이면 2분 유효시간 쿠키 적용 pop=N
+                               // false 이면 이전 유효시간을 생성시켜서 이전날짜로 pop=Y
+             // 팝업 close
+            let now = new Date();
+            if(document.getElementsByName('ckb')[0].checked){
+                 now.setTime(now.getTime() + (120 * 1000)); // 2분 추가
+                setCookie('pop','N', now);
+            }
+            window.close();
+         }
+     </script>
+</body>
+</html>
