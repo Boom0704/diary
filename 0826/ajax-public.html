@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Lot Map</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=KEY"></script>
+
+    <script>
+        $(document).ready(function () {
+            var api_url = 'http://apis.data.go.kr/6300000/pis/parkinglotIF';
+            var api_key = 'KEY';
+
+            $('#btn').click(function () {
+                let rows = $("#rows").val();
+                let page = $("#page").val();
+                let arr = [];
+
+                $.ajax({
+                    url: api_url,
+                    type: "GET",
+                    dataType: "xml",
+                    data: {
+                        serviceKey: api_key,
+                        numOfRows: rows,
+                        pageNo: page
+                    },
+                    success: function (res) {
+                        console.log(res);
+                        $(res).find("item").each(function (i, v) {
+                            let nm = $(v).find('name').text();
+                            let lat = parseFloat($(v).find('lat').text());
+                            let lon = parseFloat($(v).find('lon').text());
+                            arr.push({ "title": nm, "lat": lat, "lon": lon });
+                        });
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    },
+                    complete: function () {
+                        console.log("--complete--");
+                        let positions = [];
+
+                        for (let i = 0; i < arr.length; i++) {
+                            positions.push({
+                                title: arr[i]["title"],
+                                latlng: new kakao.maps.LatLng(arr[i]["lat"], arr[i]["lon"])
+                            });
+                        }
+
+                        var mapContainer = document.getElementById('map'),
+                            mapOption = {
+                                center: positions.length > 0 ? positions[0].latlng : new kakao.maps.LatLng(33.450701, 126.570667),
+                                level: 3
+                            };
+
+                        var map = new kakao.maps.Map(mapContainer, mapOption); /
+
+                        for (let i = 0; i < positions.length; i++) {
+                            var marker = new kakao.maps.Marker({
+                                map: map, 
+                                position: positions[i].latlng, 
+                                title: positions[i].title 
+                            });
+
+                            var infowindow = new kakao.maps.InfoWindow({
+                                content: `<div style="padding:5px;">${positions[i].title}</div>` 
+                            });
+
+                            kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
+                            kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
+                        }
+                    }
+                });
+
+            });
+        });
+
+        function makeOverListener(map, marker, infowindow) {
+            return function () {
+                infowindow.open(map, marker);
+            };
+        }
+
+        function makeOutListener(infowindow) {
+            return function () {
+                infowindow.close();
+            };
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="rows" value="3">
+    <input type="text" id="page" value="1">
+    <button id="btn">가져오기</button>
+    <div id="map" style="width: 100%; height: 400px; background-color: antiquewhite;"></div>
+</body>
+
+</html>
