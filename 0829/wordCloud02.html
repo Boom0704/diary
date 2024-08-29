@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>워드클라우드 연습</title>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.1.0/wordcloud2.js"></script>
+</head>
+<body>
+    <input type = "file" onchange = "readFile(this)">
+    <canvas id="myCanvas" width="1000px" height = "1000px"></canvas>
+    <script>
+
+        let reader = new FileReader();
+
+        reader.onload = function(e)
+        {
+            let data = e.target.result;
+            console.log(data);
+            let json = csvToJson(data);
+            let text = json.map(row => Object.values(row).join(' ')).join(' ');
+            let wordCount = countWords(text);
+            let wordCloudArr = [];
+
+            for (let key in wordCount)
+            {
+                wordCloudArr.push([key, wordCount[key]]);
+            }
+
+            WordCloud(document.getElementById("myCanvas")
+        ,{
+            list:wordCloudArr,
+            backgroundColor:'black',
+            fontSize:{form:100, to:200}
+        });
+            
+
+        };
+
+        function readFile(obj)
+        {
+            let files = obj.files;
+
+            for(let i = 0; i < files.length; i++)
+            {
+                let file = files[i];
+                console.log(file.name);
+                console.log(file.type);
+                console.log(file.size);
+                
+                if(file.name.indexOf('.csv') || file.name.indexOf('.txt'))
+            {
+                reader.readAsText(file);
+            }
+            }
+
+        }
+
+        function csvToJson (csv_data)
+        {
+            let rows = csv_data.split('\n');
+            let jsonArr = [];
+            let header = rows[0].split(',');
+
+            for(let i = 1; i < rows.length; i++)
+            {
+                let obj = {};
+                let row = rows[i].split(',');
+                
+                for(let j = 0; j < header.length; j++)
+                {
+                    obj[header[j]] = row[j];
+                }
+                jsonArr.push(obj);
+            }
+
+            return jsonArr; 
+        }
+
+        function countWords(doc)
+        {
+            let counts = [];
+
+            let arr = doc.split(/\s+/);
+            console.log(arr);
+
+            for(let word of arr)
+            {
+                word = word.toLowerCase().trim();
+                // console.log(word);
+
+                if(word != '' && word.length > 1)
+                {
+                    counts[word] = counts[word] ? counts[word] + 30 : 30;
+                }
+            }
+
+            return counts;
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

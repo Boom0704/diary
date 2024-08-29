@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대전광역시경찰청_대전지역 주정차 허용현황</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <h1>API Response</h1>
+    <div id="response">Loading...</div>
+
+    <script>
+        var url = 'https://api.odcloud.kr/api/15073605/v1/uddi:b5189de6-9196-4fc2-bbbe-e786cb13bb52?page=1&perPage=10&returnType=JSON&serviceKey=kwJYVMfnD7SPq2mEqw9I3kyHYtzpHDcOSs8Gx9yQorE5ln%2Bt%2BHj7xUJzYPTqZmlPt5OPPbTqNU5T%2FgAFDEBmGg%3D%3D';
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4) {
+                if (this.status == 200) {
+                    console.log('Raw Response Text:', this.responseText); // 전체 응답 내용 확인
+                    try {
+                        var jsonResponse = JSON.parse(this.responseText);
+                        console.log('Parsed Response:', jsonResponse); // 파싱된 응답 확인
+
+                        // 올바른 데이터 경로 확인
+                        var items = jsonResponse.data || jsonResponse.items || []; // 'data' 또는 'items' 필드에서 항목을 가져옴
+                        console.log('Items:', items);
+                        
+                        var htmlContent = '<ul>';
+                        items.forEach(function(item) {
+                            var doro = item.도로명 || 'N/A';
+                            var startPoint = item.시점 || 'N/A';
+                            var endPoint = item.종점 || 'N/A';
+                            var length = item['연장(km)'] || 'N/A';
+                            var allowanceType = item.허용구분 || 'N/A';
+                            var allowanceTime = item['허용시간(주말-공휴일)'] || 'N/A';
+                            var allowanceDate = item.허용일자 || 'N/A';
+
+                            htmlContent += `<li>
+                                도로명: ${doro}, 시점: ${startPoint}, 종점: ${endPoint}, 연장: ${length} km,
+                                허용구분: ${allowanceType}, 허용시간: ${allowanceTime}, 허용일자: ${allowanceDate}
+                            </li>`;
+                        });
+
+                        htmlContent += '</ul>';
+                        document.getElementById('response').innerHTML = htmlContent;
+                    } catch (e) {
+                        document.getElementById('response').textContent = 'Error parsing JSON: ' + e.message;
+                    }
+                } else {
+                    document.getElementById('response').textContent = 'Error: ' + this.status + ' - ' + this.statusText;
+                }
+            }
+        };
+
+        xhr.send();
+    </script>
+</body>
+</html>

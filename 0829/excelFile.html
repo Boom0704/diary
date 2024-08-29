@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet JS 사용예제</title>
+    <script src="https://cdn.sheetjs.com/xlsx-0.19.0/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <input type="file" id="upload">
+    <pre id="result"></pre>
+
+    <script>
+        document.getElementById("upload").addEventListener('change', handleFile, false);
+
+        function handleFile(e) {
+            const file = e.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(event) {
+                const data = new Uint8Array(event.target.result);
+                const workbook = XLSX.read(data, {type: 'array'});
+                console.log('Sheet Names:', workbook.SheetNames);
+
+                const firstSheetName = workbook.SheetNames[0];
+                console.log('First Sheet Name:', firstSheetName);
+
+                const worksheet = workbook.Sheets[firstSheetName];
+                if (!worksheet) {
+                    console.error('Worksheet not found:', firstSheetName);
+                    document.getElementById('result').textContent = 'Error: Worksheet not found';
+                    return;
+                }
+
+                const json = XLSX.utils.sheet_to_json(worksheet);
+                console.log(json);
+
+                document.getElementById('result').textContent = JSON.stringify(json, null, 2);
+            }
+
+            reader.readAsArrayBuffer(file);
+        }
+    </script>
+</body>
+</html>
