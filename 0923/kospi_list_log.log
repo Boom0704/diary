@@ -1,0 +1,756 @@
+2024-09-23 16:49:05,332 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:49:05,332 - INFO - Data successfully updated and displayed.
+2024-09-23 16:49:15,660 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:49:15,660 - INFO - Data successfully updated and displayed.
+2024-09-23 16:49:25,841 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:49:25,841 - INFO - Data successfully updated and displayed.
+2024-09-23 16:49:36,046 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:49:36,046 - INFO - Data successfully updated and displayed.
+2024-09-23 16:49:46,249 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:49:46,253 - INFO - Data successfully updated and displayed.
+2024-09-23 16:49:56,425 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:49:56,425 - INFO - Data successfully updated and displayed.
+2024-09-23 16:50:06,617 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:50:06,617 - INFO - Data successfully updated and displayed.
+2024-09-23 16:50:16,857 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:50:16,873 - INFO - Data successfully updated and displayed.
+2024-09-23 16:50:27,139 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:50:27,139 - INFO - Data successfully updated and displayed.
+2024-09-23 16:50:37,426 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:50:37,426 - INFO - Data successfully updated and displayed.
+2024-09-23 16:50:47,641 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:50:47,641 - INFO - Data successfully updated and displayed.
+2024-09-23 16:50:57,874 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:50:57,874 - INFO - Data successfully updated and displayed.
+2024-09-23 16:51:08,134 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:51:08,134 - INFO - Data successfully updated and displayed.
+2024-09-23 16:51:18,356 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:51:18,356 - INFO - Data successfully updated and displayed.
+2024-09-23 16:51:28,564 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:51:28,564 - INFO - Data successfully updated and displayed.
+2024-09-23 16:51:38,743 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:51:38,743 - INFO - Data successfully updated and displayed.
+2024-09-23 16:51:48,939 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:51:48,939 - INFO - Data successfully updated and displayed.
+2024-09-23 16:51:59,069 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:51:59,069 - INFO - Data successfully updated and displayed.
+2024-09-23 16:52:09,234 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:52:09,234 - INFO - Data successfully updated and displayed.
+2024-09-23 16:52:19,346 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:52:19,362 - INFO - Data successfully updated and displayed.
+2024-09-23 16:52:29,520 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:52:29,520 - INFO - Data successfully updated and displayed.
+2024-09-23 16:52:39,760 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:52:39,760 - INFO - Data successfully updated and displayed.
+2024-09-23 16:52:50,013 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:52:50,028 - INFO - Data successfully updated and displayed.
+2024-09-23 16:53:00,205 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:53:00,205 - INFO - Data successfully updated and displayed.
+2024-09-23 16:53:10,344 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:53:10,344 - INFO - Data successfully updated and displayed.
+2024-09-23 16:53:20,511 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:53:20,512 - INFO - Data successfully updated and displayed.
+2024-09-23 16:53:30,681 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:53:30,681 - INFO - Data successfully updated and displayed.
+2024-09-23 16:53:40,896 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:53:40,896 - INFO - Data successfully updated and displayed.
+2024-09-23 16:53:51,113 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:53:51,113 - INFO - Data successfully updated and displayed.
+2024-09-23 16:54:01,325 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:54:01,325 - INFO - Data successfully updated and displayed.
+2024-09-23 16:54:11,539 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:54:11,539 - INFO - Data successfully updated and displayed.
+2024-09-23 16:54:21,709 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:54:21,709 - INFO - Data successfully updated and displayed.
+2024-09-23 16:54:31,890 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:54:31,890 - INFO - Data successfully updated and displayed.
+2024-09-23 16:54:42,103 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:54:42,103 - INFO - Data successfully updated and displayed.
+2024-09-23 16:54:52,332 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:54:52,332 - INFO - Data successfully updated and displayed.
+2024-09-23 16:55:02,544 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:55:02,544 - INFO - Data successfully updated and displayed.
+2024-09-23 16:55:12,753 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:55:12,753 - INFO - Data successfully updated and displayed.
+2024-09-23 16:55:22,980 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:55:22,980 - INFO - Data successfully updated and displayed.
+2024-09-23 16:55:33,193 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:55:33,193 - INFO - Data successfully updated and displayed.
+2024-09-23 16:55:43,388 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:55:43,388 - INFO - Data successfully updated and displayed.
+2024-09-23 16:55:53,584 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:55:53,584 - INFO - Data successfully updated and displayed.
+2024-09-23 16:56:03,767 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:56:03,767 - INFO - Data successfully updated and displayed.
+2024-09-23 16:56:13,993 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:56:13,993 - INFO - Data successfully updated and displayed.
+2024-09-23 16:56:24,190 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:56:24,190 - INFO - Data successfully updated and displayed.
+2024-09-23 16:56:34,433 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:56:34,433 - INFO - Data successfully updated and displayed.
+2024-09-23 16:56:44,658 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:56:44,658 - INFO - Data successfully updated and displayed.
+2024-09-23 16:56:54,856 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:56:54,856 - INFO - Data successfully updated and displayed.
+2024-09-23 16:57:05,084 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:57:05,084 - INFO - Data successfully updated and displayed.
+2024-09-23 16:57:15,281 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:57:15,281 - INFO - Data successfully updated and displayed.
+2024-09-23 16:57:25,508 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:57:25,508 - INFO - Data successfully updated and displayed.
+2024-09-23 16:57:35,738 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:57:35,738 - INFO - Data successfully updated and displayed.
+2024-09-23 16:57:45,923 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:57:45,923 - INFO - Data successfully updated and displayed.
+2024-09-23 16:57:56,103 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:57:56,103 - INFO - Data successfully updated and displayed.
+2024-09-23 16:58:06,298 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:58:06,298 - INFO - Data successfully updated and displayed.
+2024-09-23 16:58:16,497 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:58:16,497 - INFO - Data successfully updated and displayed.
+2024-09-23 16:58:26,645 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:58:26,645 - INFO - Data successfully updated and displayed.
+2024-09-23 16:58:36,826 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:58:36,826 - INFO - Data successfully updated and displayed.
+2024-09-23 16:58:47,053 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:58:47,053 - INFO - Data successfully updated and displayed.
+2024-09-23 16:58:57,280 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:58:57,280 - INFO - Data successfully updated and displayed.
+2024-09-23 16:59:07,448 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:59:07,448 - INFO - Data successfully updated and displayed.
+2024-09-23 16:59:17,629 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:59:17,629 - INFO - Data successfully updated and displayed.
+2024-09-23 16:59:27,841 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:59:27,841 - INFO - Data successfully updated and displayed.
+2024-09-23 16:59:38,007 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:59:38,007 - INFO - Data successfully updated and displayed.
+2024-09-23 16:59:48,204 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:59:48,204 - INFO - Data successfully updated and displayed.
+2024-09-23 16:59:58,432 - INFO - Successfully fetched Kospi data.
+2024-09-23 16:59:58,432 - INFO - Data successfully updated and displayed.
+2024-09-23 17:00:08,632 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:00:08,632 - INFO - Data successfully updated and displayed.
+2024-09-23 17:00:18,874 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:00:18,874 - INFO - Data successfully updated and displayed.
+2024-09-23 17:00:29,055 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:00:29,055 - INFO - Data successfully updated and displayed.
+2024-09-23 17:00:39,265 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:00:39,265 - INFO - Data successfully updated and displayed.
+2024-09-23 17:00:49,447 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:00:49,463 - INFO - Data successfully updated and displayed.
+2024-09-23 17:00:59,690 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:00:59,706 - INFO - Data successfully updated and displayed.
+2024-09-23 17:01:10,039 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:01:10,039 - INFO - Data successfully updated and displayed.
+2024-09-23 17:01:20,304 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:01:20,319 - INFO - Data successfully updated and displayed.
+2024-09-23 17:01:30,586 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:01:30,586 - INFO - Data successfully updated and displayed.
+2024-09-23 17:01:40,801 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:01:40,801 - INFO - Data successfully updated and displayed.
+2024-09-23 17:01:51,118 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:01:51,133 - INFO - Data successfully updated and displayed.
+2024-09-23 17:02:01,392 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:02:01,408 - INFO - Data successfully updated and displayed.
+2024-09-23 17:02:11,644 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:02:11,644 - INFO - Data successfully updated and displayed.
+2024-09-23 17:02:21,916 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:02:21,916 - INFO - Data successfully updated and displayed.
+2024-09-23 17:02:32,165 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:02:32,165 - INFO - Data successfully updated and displayed.
+2024-09-23 17:02:42,402 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:02:42,418 - INFO - Data successfully updated and displayed.
+2024-09-23 17:02:52,705 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:02:52,705 - INFO - Data successfully updated and displayed.
+2024-09-23 17:03:02,981 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:03:02,984 - INFO - Data successfully updated and displayed.
+2024-09-23 17:03:13,256 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:03:13,259 - INFO - Data successfully updated and displayed.
+2024-09-23 17:03:23,534 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:03:23,534 - INFO - Data successfully updated and displayed.
+2024-09-23 17:03:33,763 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:03:33,763 - INFO - Data successfully updated and displayed.
+2024-09-23 17:03:44,030 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:03:44,046 - INFO - Data successfully updated and displayed.
+2024-09-23 17:03:54,334 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:03:54,335 - INFO - Data successfully updated and displayed.
+2024-09-23 17:04:04,537 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:04:04,537 - INFO - Data successfully updated and displayed.
+2024-09-23 17:04:14,808 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:04:14,808 - INFO - Data successfully updated and displayed.
+2024-09-23 17:04:25,059 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:04:25,075 - INFO - Data successfully updated and displayed.
+2024-09-23 17:04:35,293 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:04:35,293 - INFO - Data successfully updated and displayed.
+2024-09-23 17:04:45,561 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:04:45,561 - INFO - Data successfully updated and displayed.
+2024-09-23 17:04:55,873 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:04:55,889 - INFO - Data successfully updated and displayed.
+2024-09-23 17:05:06,181 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:05:06,197 - INFO - Data successfully updated and displayed.
+2024-09-23 17:05:16,405 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:05:16,405 - INFO - Data successfully updated and displayed.
+2024-09-23 17:05:26,705 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:05:26,705 - INFO - Data successfully updated and displayed.
+2024-09-23 17:05:36,943 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:05:36,943 - INFO - Data successfully updated and displayed.
+2024-09-23 17:05:47,243 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:05:47,243 - INFO - Data successfully updated and displayed.
+2024-09-23 17:05:57,556 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:05:57,556 - INFO - Data successfully updated and displayed.
+2024-09-23 17:06:07,820 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:06:07,820 - INFO - Data successfully updated and displayed.
+2024-09-23 17:06:18,094 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:06:18,094 - INFO - Data successfully updated and displayed.
+2024-09-23 17:06:28,351 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:06:28,351 - INFO - Data successfully updated and displayed.
+2024-09-23 17:06:38,635 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:06:38,651 - INFO - Data successfully updated and displayed.
+2024-09-23 17:06:48,960 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:06:48,972 - INFO - Data successfully updated and displayed.
+2024-09-23 17:06:59,273 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:06:59,279 - INFO - Data successfully updated and displayed.
+2024-09-23 17:07:09,536 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:07:09,536 - INFO - Data successfully updated and displayed.
+2024-09-23 17:07:19,787 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:07:19,787 - INFO - Data successfully updated and displayed.
+2024-09-23 17:07:30,021 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:07:30,021 - INFO - Data successfully updated and displayed.
+2024-09-23 17:07:40,312 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:07:40,328 - INFO - Data successfully updated and displayed.
+2024-09-23 17:07:50,553 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:07:50,553 - INFO - Data successfully updated and displayed.
+2024-09-23 17:08:00,788 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:08:00,788 - INFO - Data successfully updated and displayed.
+2024-09-23 17:08:11,133 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:08:11,133 - INFO - Data successfully updated and displayed.
+2024-09-23 17:08:21,420 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:08:21,420 - INFO - Data successfully updated and displayed.
+2024-09-23 17:08:31,662 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:08:31,662 - INFO - Data successfully updated and displayed.
+2024-09-23 17:08:41,917 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:08:41,917 - INFO - Data successfully updated and displayed.
+2024-09-23 17:08:52,129 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:08:52,129 - INFO - Data successfully updated and displayed.
+2024-09-23 17:09:02,410 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:09:02,410 - INFO - Data successfully updated and displayed.
+2024-09-23 17:09:12,684 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:09:12,700 - INFO - Data successfully updated and displayed.
+2024-09-23 17:09:23,000 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:09:23,000 - INFO - Data successfully updated and displayed.
+2024-09-23 17:09:33,245 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:09:33,245 - INFO - Data successfully updated and displayed.
+2024-09-23 17:09:43,476 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:09:43,492 - INFO - Data successfully updated and displayed.
+2024-09-23 17:09:53,709 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:09:53,709 - INFO - Data successfully updated and displayed.
+2024-09-23 17:10:03,976 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:10:03,992 - INFO - Data successfully updated and displayed.
+2024-09-23 17:10:14,223 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:10:14,239 - INFO - Data successfully updated and displayed.
+2024-09-23 17:10:24,450 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:10:24,450 - INFO - Data successfully updated and displayed.
+2024-09-23 17:10:34,747 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:10:34,763 - INFO - Data successfully updated and displayed.
+2024-09-23 17:10:45,015 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:10:45,031 - INFO - Data successfully updated and displayed.
+2024-09-23 17:10:55,255 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:10:55,255 - INFO - Data successfully updated and displayed.
+2024-09-23 17:11:05,480 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:11:05,496 - INFO - Data successfully updated and displayed.
+2024-09-23 17:11:15,734 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:11:15,734 - INFO - Data successfully updated and displayed.
+2024-09-23 17:11:25,951 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:11:25,951 - INFO - Data successfully updated and displayed.
+2024-09-23 17:11:36,246 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:11:36,246 - INFO - Data successfully updated and displayed.
+2024-09-23 17:11:46,452 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:11:46,467 - INFO - Data successfully updated and displayed.
+2024-09-23 17:11:56,722 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:11:56,738 - INFO - Data successfully updated and displayed.
+2024-09-23 17:12:06,997 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:12:07,012 - INFO - Data successfully updated and displayed.
+2024-09-23 17:12:17,232 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:12:17,232 - INFO - Data successfully updated and displayed.
+2024-09-23 17:12:27,482 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:12:27,497 - INFO - Data successfully updated and displayed.
+2024-09-23 17:12:37,762 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:12:37,778 - INFO - Data successfully updated and displayed.
+2024-09-23 17:12:48,014 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:12:48,014 - INFO - Data successfully updated and displayed.
+2024-09-23 17:12:58,268 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:12:58,284 - INFO - Data successfully updated and displayed.
+2024-09-23 17:13:08,513 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:13:08,529 - INFO - Data successfully updated and displayed.
+2024-09-23 17:13:18,827 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:13:18,830 - INFO - Data successfully updated and displayed.
+2024-09-23 17:13:29,092 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:13:29,107 - INFO - Data successfully updated and displayed.
+2024-09-23 17:13:39,354 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:13:39,358 - INFO - Data successfully updated and displayed.
+2024-09-23 17:13:49,652 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:13:49,652 - INFO - Data successfully updated and displayed.
+2024-09-23 17:13:59,919 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:13:59,919 - INFO - Data successfully updated and displayed.
+2024-09-23 17:14:10,163 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:14:10,163 - INFO - Data successfully updated and displayed.
+2024-09-23 17:14:20,419 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:14:20,419 - INFO - Data successfully updated and displayed.
+2024-09-23 17:14:30,669 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:14:30,669 - INFO - Data successfully updated and displayed.
+2024-09-23 17:14:40,980 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:14:40,980 - INFO - Data successfully updated and displayed.
+2024-09-23 17:14:51,246 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:14:51,246 - INFO - Data successfully updated and displayed.
+2024-09-23 17:15:01,451 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:15:01,454 - INFO - Data successfully updated and displayed.
+2024-09-23 17:15:11,709 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:15:11,709 - INFO - Data successfully updated and displayed.
+2024-09-23 17:15:21,949 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:15:21,965 - INFO - Data successfully updated and displayed.
+2024-09-23 17:15:32,283 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:15:32,283 - INFO - Data successfully updated and displayed.
+2024-09-23 17:15:42,543 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:15:42,543 - INFO - Data successfully updated and displayed.
+2024-09-23 17:15:52,794 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:15:52,794 - INFO - Data successfully updated and displayed.
+2024-09-23 17:16:03,127 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:16:03,127 - INFO - Data successfully updated and displayed.
+2024-09-23 17:16:13,386 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:16:13,386 - INFO - Data successfully updated and displayed.
+2024-09-23 17:16:23,636 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:16:23,636 - INFO - Data successfully updated and displayed.
+2024-09-23 17:16:33,856 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:16:33,859 - INFO - Data successfully updated and displayed.
+2024-09-23 17:16:44,137 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:16:44,137 - INFO - Data successfully updated and displayed.
+2024-09-23 17:16:54,361 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:16:54,364 - INFO - Data successfully updated and displayed.
+2024-09-23 17:17:04,641 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:17:04,641 - INFO - Data successfully updated and displayed.
+2024-09-23 17:17:14,965 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:17:14,981 - INFO - Data successfully updated and displayed.
+2024-09-23 17:17:25,212 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:17:25,212 - INFO - Data successfully updated and displayed.
+2024-09-23 17:17:35,449 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:17:35,465 - INFO - Data successfully updated and displayed.
+2024-09-23 17:17:45,739 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:17:45,742 - INFO - Data successfully updated and displayed.
+2024-09-23 17:17:55,966 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:17:55,982 - INFO - Data successfully updated and displayed.
+2024-09-23 17:18:06,248 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:18:06,248 - INFO - Data successfully updated and displayed.
+2024-09-23 17:18:16,471 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:18:16,471 - INFO - Data successfully updated and displayed.
+2024-09-23 17:18:26,716 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:18:26,716 - INFO - Data successfully updated and displayed.
+2024-09-23 17:18:37,008 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:18:37,008 - INFO - Data successfully updated and displayed.
+2024-09-23 17:18:47,299 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:18:47,299 - INFO - Data successfully updated and displayed.
+2024-09-23 17:18:57,485 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:18:57,485 - INFO - Data successfully updated and displayed.
+2024-09-23 17:19:07,743 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:19:07,761 - INFO - Data successfully updated and displayed.
+2024-09-23 17:19:17,989 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:19:17,989 - INFO - Data successfully updated and displayed.
+2024-09-23 17:19:28,247 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:19:28,263 - INFO - Data successfully updated and displayed.
+2024-09-23 17:19:38,520 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:19:38,520 - INFO - Data successfully updated and displayed.
+2024-09-23 17:19:48,791 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:19:48,791 - INFO - Data successfully updated and displayed.
+2024-09-23 17:19:59,095 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:19:59,095 - INFO - Data successfully updated and displayed.
+2024-09-23 17:20:09,382 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:20:09,398 - INFO - Data successfully updated and displayed.
+2024-09-23 17:20:19,640 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:20:19,640 - INFO - Data successfully updated and displayed.
+2024-09-23 17:20:29,927 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:20:29,927 - INFO - Data successfully updated and displayed.
+2024-09-23 17:20:40,198 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:20:40,198 - INFO - Data successfully updated and displayed.
+2024-09-23 17:20:50,516 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:20:50,531 - INFO - Data successfully updated and displayed.
+2024-09-23 17:21:00,817 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:21:00,833 - INFO - Data successfully updated and displayed.
+2024-09-23 17:21:11,136 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:21:11,136 - INFO - Data successfully updated and displayed.
+2024-09-23 17:21:21,412 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:21:21,412 - INFO - Data successfully updated and displayed.
+2024-09-23 17:21:31,651 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:21:31,651 - INFO - Data successfully updated and displayed.
+2024-09-23 17:21:41,876 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:21:41,876 - INFO - Data successfully updated and displayed.
+2024-09-23 17:21:52,147 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:21:52,147 - INFO - Data successfully updated and displayed.
+2024-09-23 17:22:02,359 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:22:02,374 - INFO - Data successfully updated and displayed.
+2024-09-23 17:22:12,569 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:22:12,585 - INFO - Data successfully updated and displayed.
+2024-09-23 17:22:22,810 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:22:22,810 - INFO - Data successfully updated and displayed.
+2024-09-23 17:22:33,129 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:22:33,129 - INFO - Data successfully updated and displayed.
+2024-09-23 17:22:43,412 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:22:43,412 - INFO - Data successfully updated and displayed.
+2024-09-23 17:22:53,713 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:22:53,713 - INFO - Data successfully updated and displayed.
+2024-09-23 17:23:03,966 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:23:03,966 - INFO - Data successfully updated and displayed.
+2024-09-23 17:23:14,283 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:23:14,298 - INFO - Data successfully updated and displayed.
+2024-09-23 17:23:24,569 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:23:24,569 - INFO - Data successfully updated and displayed.
+2024-09-23 17:23:34,854 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:23:34,854 - INFO - Data successfully updated and displayed.
+2024-09-23 17:23:45,157 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:23:45,157 - INFO - Data successfully updated and displayed.
+2024-09-23 17:23:55,460 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:23:55,476 - INFO - Data successfully updated and displayed.
+2024-09-23 17:24:05,792 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:24:05,792 - INFO - Data successfully updated and displayed.
+2024-09-23 17:24:16,047 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:24:16,063 - INFO - Data successfully updated and displayed.
+2024-09-23 17:24:26,274 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:24:26,274 - INFO - Data successfully updated and displayed.
+2024-09-23 17:24:36,589 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:24:36,589 - INFO - Data successfully updated and displayed.
+2024-09-23 17:24:46,857 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:24:46,857 - INFO - Data successfully updated and displayed.
+2024-09-23 17:24:57,143 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:24:57,158 - INFO - Data successfully updated and displayed.
+2024-09-23 17:25:07,490 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:25:07,490 - INFO - Data successfully updated and displayed.
+2024-09-23 17:25:17,774 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:25:17,774 - INFO - Data successfully updated and displayed.
+2024-09-23 17:25:28,032 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:25:28,032 - INFO - Data successfully updated and displayed.
+2024-09-23 17:25:38,319 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:25:38,319 - INFO - Data successfully updated and displayed.
+2024-09-23 17:25:48,589 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:25:48,589 - INFO - Data successfully updated and displayed.
+2024-09-23 17:25:58,875 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:25:58,891 - INFO - Data successfully updated and displayed.
+2024-09-23 17:26:09,118 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:26:09,134 - INFO - Data successfully updated and displayed.
+2024-09-23 17:26:19,421 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:26:19,421 - INFO - Data successfully updated and displayed.
+2024-09-23 17:26:29,738 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:26:29,738 - INFO - Data successfully updated and displayed.
+2024-09-23 17:26:40,056 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:26:40,056 - INFO - Data successfully updated and displayed.
+2024-09-23 17:26:50,327 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:26:50,327 - INFO - Data successfully updated and displayed.
+2024-09-23 17:27:00,566 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:27:00,566 - INFO - Data successfully updated and displayed.
+2024-09-23 17:27:10,836 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:27:10,836 - INFO - Data successfully updated and displayed.
+2024-09-23 17:27:21,153 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:27:21,169 - INFO - Data successfully updated and displayed.
+2024-09-23 17:27:31,425 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:27:31,425 - INFO - Data successfully updated and displayed.
+2024-09-23 17:27:41,741 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:27:41,741 - INFO - Data successfully updated and displayed.
+2024-09-23 17:27:52,059 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:27:52,059 - INFO - Data successfully updated and displayed.
+2024-09-23 17:28:02,409 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:28:02,409 - INFO - Data successfully updated and displayed.
+2024-09-23 17:28:12,700 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:28:12,700 - INFO - Data successfully updated and displayed.
+2024-09-23 17:28:22,972 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:28:22,972 - INFO - Data successfully updated and displayed.
+2024-09-23 17:28:33,274 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:28:33,274 - INFO - Data successfully updated and displayed.
+2024-09-23 17:28:43,531 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:28:43,531 - INFO - Data successfully updated and displayed.
+2024-09-23 17:28:53,801 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:28:53,801 - INFO - Data successfully updated and displayed.
+2024-09-23 17:29:04,134 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:29:04,134 - INFO - Data successfully updated and displayed.
+2024-09-23 17:29:14,402 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:29:14,402 - INFO - Data successfully updated and displayed.
+2024-09-23 17:29:24,674 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:29:24,689 - INFO - Data successfully updated and displayed.
+2024-09-23 17:29:34,959 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:29:34,974 - INFO - Data successfully updated and displayed.
+2024-09-23 17:29:45,229 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:29:45,244 - INFO - Data successfully updated and displayed.
+2024-09-23 17:29:55,561 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:29:55,561 - INFO - Data successfully updated and displayed.
+2024-09-23 17:30:05,815 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:30:05,815 - INFO - Data successfully updated and displayed.
+2024-09-23 17:30:16,116 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:30:16,116 - INFO - Data successfully updated and displayed.
+2024-09-23 17:30:26,388 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:30:26,388 - INFO - Data successfully updated and displayed.
+2024-09-23 17:30:36,693 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:30:36,693 - INFO - Data successfully updated and displayed.
+2024-09-23 17:30:46,964 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:30:46,964 - INFO - Data successfully updated and displayed.
+2024-09-23 17:30:57,251 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:30:57,251 - INFO - Data successfully updated and displayed.
+2024-09-23 17:31:07,570 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:31:07,570 - INFO - Data successfully updated and displayed.
+2024-09-23 17:31:17,887 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:31:17,887 - INFO - Data successfully updated and displayed.
+2024-09-23 17:31:28,174 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:31:28,174 - INFO - Data successfully updated and displayed.
+2024-09-23 17:31:38,431 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:31:38,446 - INFO - Data successfully updated and displayed.
+2024-09-23 17:31:48,686 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:31:48,686 - INFO - Data successfully updated and displayed.
+2024-09-23 17:31:59,004 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:31:59,004 - INFO - Data successfully updated and displayed.
+2024-09-23 17:32:09,277 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:32:09,277 - INFO - Data successfully updated and displayed.
+2024-09-23 17:32:19,565 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:32:19,565 - INFO - Data successfully updated and displayed.
+2024-09-23 17:32:29,835 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:32:29,851 - INFO - Data successfully updated and displayed.
+2024-09-23 17:32:40,151 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:32:40,151 - INFO - Data successfully updated and displayed.
+2024-09-23 17:32:50,436 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:32:50,436 - INFO - Data successfully updated and displayed.
+2024-09-23 17:33:00,784 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:33:00,784 - INFO - Data successfully updated and displayed.
+2024-09-23 17:33:11,025 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:33:11,025 - INFO - Data successfully updated and displayed.
+2024-09-23 17:33:21,279 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:33:21,279 - INFO - Data successfully updated and displayed.
+2024-09-23 17:33:31,564 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:33:31,580 - INFO - Data successfully updated and displayed.
+2024-09-23 17:33:41,865 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:33:41,880 - INFO - Data successfully updated and displayed.
+2024-09-23 17:33:52,184 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:33:52,184 - INFO - Data successfully updated and displayed.
+2024-09-23 17:34:02,428 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:34:02,428 - INFO - Data successfully updated and displayed.
+2024-09-23 17:34:12,686 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:34:12,686 - INFO - Data successfully updated and displayed.
+2024-09-23 17:34:23,032 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:34:23,032 - INFO - Data successfully updated and displayed.
+2024-09-23 17:34:33,333 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:34:33,333 - INFO - Data successfully updated and displayed.
+2024-09-23 17:34:43,603 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:34:43,603 - INFO - Data successfully updated and displayed.
+2024-09-23 17:34:53,887 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:34:53,887 - INFO - Data successfully updated and displayed.
+2024-09-23 17:35:04,187 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:35:04,187 - INFO - Data successfully updated and displayed.
+2024-09-23 17:35:14,459 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:35:14,459 - INFO - Data successfully updated and displayed.
+2024-09-23 17:35:24,763 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:35:24,763 - INFO - Data successfully updated and displayed.
+2024-09-23 17:35:35,049 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:35:35,049 - INFO - Data successfully updated and displayed.
+2024-09-23 17:35:45,382 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:35:45,382 - INFO - Data successfully updated and displayed.
+2024-09-23 17:35:55,635 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:35:55,635 - INFO - Data successfully updated and displayed.
+2024-09-23 17:36:05,859 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:36:05,859 - INFO - Data successfully updated and displayed.
+2024-09-23 17:36:16,131 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:36:16,131 - INFO - Data successfully updated and displayed.
+2024-09-23 17:36:26,418 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:36:26,434 - INFO - Data successfully updated and displayed.
+2024-09-23 17:36:36,691 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:36:36,691 - INFO - Data successfully updated and displayed.
+2024-09-23 17:36:46,981 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:36:46,981 - INFO - Data successfully updated and displayed.
+2024-09-23 17:36:57,250 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:36:57,250 - INFO - Data successfully updated and displayed.
+2024-09-23 17:37:07,494 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:37:07,509 - INFO - Data successfully updated and displayed.
+2024-09-23 17:37:17,750 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:37:17,765 - INFO - Data successfully updated and displayed.
+2024-09-23 17:37:28,035 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:37:28,035 - INFO - Data successfully updated and displayed.
+2024-09-23 17:37:38,228 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:37:38,228 - INFO - Data successfully updated and displayed.
+2024-09-23 17:37:48,528 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:37:48,528 - INFO - Data successfully updated and displayed.
+2024-09-23 17:37:58,816 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:37:58,816 - INFO - Data successfully updated and displayed.
+2024-09-23 17:38:09,055 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:38:09,055 - INFO - Data successfully updated and displayed.
+2024-09-23 17:38:19,389 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:38:19,389 - INFO - Data successfully updated and displayed.
+2024-09-23 17:38:29,628 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:38:29,628 - INFO - Data successfully updated and displayed.
+2024-09-23 17:38:39,900 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:38:39,916 - INFO - Data successfully updated and displayed.
+2024-09-23 17:38:50,171 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:38:50,171 - INFO - Data successfully updated and displayed.
+2024-09-23 17:39:00,443 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:39:00,458 - INFO - Data successfully updated and displayed.
+2024-09-23 17:39:10,728 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:39:10,744 - INFO - Data successfully updated and displayed.
+2024-09-23 17:39:21,015 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:39:21,015 - INFO - Data successfully updated and displayed.
+2024-09-23 17:39:31,304 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:39:31,304 - INFO - Data successfully updated and displayed.
+2024-09-23 17:39:41,653 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:39:41,668 - INFO - Data successfully updated and displayed.
+2024-09-23 17:39:51,953 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:39:51,953 - INFO - Data successfully updated and displayed.
+2024-09-23 17:40:02,207 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:40:02,207 - INFO - Data successfully updated and displayed.
+2024-09-23 17:40:12,445 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:40:12,445 - INFO - Data successfully updated and displayed.
+2024-09-23 17:40:22,717 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:40:22,732 - INFO - Data successfully updated and displayed.
+2024-09-23 17:40:32,988 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:40:32,988 - INFO - Data successfully updated and displayed.
+2024-09-23 17:40:43,231 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:40:43,231 - INFO - Data successfully updated and displayed.
+2024-09-23 17:40:53,533 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:40:53,533 - INFO - Data successfully updated and displayed.
+2024-09-23 17:41:03,867 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:41:03,867 - INFO - Data successfully updated and displayed.
+2024-09-23 17:41:14,185 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:41:14,185 - INFO - Data successfully updated and displayed.
+2024-09-23 17:41:24,461 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:41:24,461 - INFO - Data successfully updated and displayed.
+2024-09-23 17:41:34,763 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:41:34,763 - INFO - Data successfully updated and displayed.
+2024-09-23 17:41:45,079 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:41:45,095 - INFO - Data successfully updated and displayed.
+2024-09-23 17:41:55,396 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:41:55,396 - INFO - Data successfully updated and displayed.
+2024-09-23 17:42:05,667 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:42:05,667 - INFO - Data successfully updated and displayed.
+2024-09-23 17:42:16,030 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:42:16,030 - INFO - Data successfully updated and displayed.
+2024-09-23 17:42:26,348 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:42:26,365 - INFO - Data successfully updated and displayed.
+2024-09-23 17:42:36,638 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:42:36,653 - INFO - Data successfully updated and displayed.
+2024-09-23 17:42:46,908 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:42:46,908 - INFO - Data successfully updated and displayed.
+2024-09-23 17:42:57,194 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:42:57,194 - INFO - Data successfully updated and displayed.
+2024-09-23 17:43:07,465 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:43:07,465 - INFO - Data successfully updated and displayed.
+2024-09-23 17:43:17,753 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:43:17,769 - INFO - Data successfully updated and displayed.
+2024-09-23 17:43:28,057 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:43:28,057 - INFO - Data successfully updated and displayed.
+2024-09-23 17:43:38,332 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:43:38,347 - INFO - Data successfully updated and displayed.
+2024-09-23 17:43:48,647 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:43:48,647 - INFO - Data successfully updated and displayed.
+2024-09-23 17:43:58,932 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:43:58,932 - INFO - Data successfully updated and displayed.
+2024-09-23 17:44:09,232 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:44:09,248 - INFO - Data successfully updated and displayed.
+2024-09-23 17:44:19,550 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:44:19,550 - INFO - Data successfully updated and displayed.
+2024-09-23 17:44:29,802 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:44:29,802 - INFO - Data successfully updated and displayed.
+2024-09-23 17:44:40,135 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:44:40,135 - INFO - Data successfully updated and displayed.
+2024-09-23 17:44:50,470 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:44:50,470 - INFO - Data successfully updated and displayed.
+2024-09-23 17:45:00,757 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:45:00,757 - INFO - Data successfully updated and displayed.
+2024-09-23 17:45:11,026 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:45:11,026 - INFO - Data successfully updated and displayed.
+2024-09-23 17:45:21,345 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:45:21,345 - INFO - Data successfully updated and displayed.
+2024-09-23 17:45:31,560 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:45:31,560 - INFO - Data successfully updated and displayed.
+2024-09-23 17:45:41,821 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:45:41,836 - INFO - Data successfully updated and displayed.
+2024-09-23 17:45:52,136 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:45:52,136 - INFO - Data successfully updated and displayed.
+2024-09-23 17:46:02,470 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:46:02,470 - INFO - Data successfully updated and displayed.
+2024-09-23 17:46:12,772 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:46:12,772 - INFO - Data successfully updated and displayed.
+2024-09-23 17:46:23,027 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:46:23,043 - INFO - Data successfully updated and displayed.
+2024-09-23 17:46:33,300 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:46:33,300 - INFO - Data successfully updated and displayed.
+2024-09-23 17:46:43,555 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:46:43,555 - INFO - Data successfully updated and displayed.
+2024-09-23 17:46:53,810 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:46:53,810 - INFO - Data successfully updated and displayed.
+2024-09-23 17:47:04,100 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:47:04,100 - INFO - Data successfully updated and displayed.
+2024-09-23 17:47:14,325 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:47:14,325 - INFO - Data successfully updated and displayed.
+2024-09-23 17:47:24,631 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:47:24,631 - INFO - Data successfully updated and displayed.
+2024-09-23 17:47:34,932 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:47:34,932 - INFO - Data successfully updated and displayed.
+2024-09-23 17:47:45,157 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:47:45,157 - INFO - Data successfully updated and displayed.
+2024-09-23 17:47:55,415 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:47:55,415 - INFO - Data successfully updated and displayed.
+2024-09-23 17:48:05,731 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:48:05,747 - INFO - Data successfully updated and displayed.
+2024-09-23 17:48:16,034 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:48:16,034 - INFO - Data successfully updated and displayed.
+2024-09-23 17:48:26,276 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:48:26,276 - INFO - Data successfully updated and displayed.
+2024-09-23 17:48:36,534 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:48:36,534 - INFO - Data successfully updated and displayed.
+2024-09-23 17:48:46,871 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:48:46,871 - INFO - Data successfully updated and displayed.
+2024-09-23 17:48:57,190 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:48:57,190 - INFO - Data successfully updated and displayed.
+2024-09-23 17:49:07,443 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:49:07,443 - INFO - Data successfully updated and displayed.
+2024-09-23 17:49:17,760 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:49:17,776 - INFO - Data successfully updated and displayed.
+2024-09-23 17:49:28,047 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:49:28,047 - INFO - Data successfully updated and displayed.
+2024-09-23 17:49:38,332 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:49:38,351 - INFO - Data successfully updated and displayed.
+2024-09-23 17:49:48,634 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:49:48,634 - INFO - Data successfully updated and displayed.
+2024-09-23 17:49:58,905 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:49:58,905 - INFO - Data successfully updated and displayed.
+2024-09-23 17:50:09,253 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:50:09,253 - INFO - Data successfully updated and displayed.
+2024-09-23 17:50:19,524 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:50:19,524 - INFO - Data successfully updated and displayed.
+2024-09-23 17:50:29,798 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:50:29,798 - INFO - Data successfully updated and displayed.
+2024-09-23 17:50:40,086 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:50:40,086 - INFO - Data successfully updated and displayed.
+2024-09-23 17:50:50,390 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:50:50,390 - INFO - Data successfully updated and displayed.
+2024-09-23 17:51:00,633 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:51:00,633 - INFO - Data successfully updated and displayed.
+2024-09-23 17:51:10,913 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:51:10,913 - INFO - Data successfully updated and displayed.
+2024-09-23 17:51:21,208 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:51:21,208 - INFO - Data successfully updated and displayed.
+2024-09-23 17:51:31,474 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:51:31,474 - INFO - Data successfully updated and displayed.
+2024-09-23 17:51:41,751 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:51:41,751 - INFO - Data successfully updated and displayed.
+2024-09-23 17:51:52,039 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:51:52,039 - INFO - Data successfully updated and displayed.
+2024-09-23 17:52:02,340 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:52:02,340 - INFO - Data successfully updated and displayed.
+2024-09-23 17:52:12,582 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:52:12,582 - INFO - Data successfully updated and displayed.
+2024-09-23 17:52:22,837 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:52:22,837 - INFO - Data successfully updated and displayed.
+2024-09-23 17:52:33,155 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:52:33,155 - INFO - Data successfully updated and displayed.
+2024-09-23 17:52:43,520 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:52:43,520 - INFO - Data successfully updated and displayed.
+2024-09-23 17:52:53,793 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:52:53,809 - INFO - Data successfully updated and displayed.
+2024-09-23 17:53:04,050 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:53:04,050 - INFO - Data successfully updated and displayed.
+2024-09-23 17:53:14,353 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:53:14,369 - INFO - Data successfully updated and displayed.
+2024-09-23 17:53:24,639 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:53:24,654 - INFO - Data successfully updated and displayed.
+2024-09-23 17:53:34,903 - INFO - Successfully fetched Kospi data.
+2024-09-23 17:53:34,903 - INFO - Data successfully updated and displayed.
