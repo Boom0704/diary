@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO Image Analyzer</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Upload Image for Object Detection</h2>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" required>
+        <input type="button" id="analyzeButton" value="Analyze">
+    </form>
+    <div id="result" style="display: none;">
+        <h3>Result</h3>
+        <p>Original Image:</p>
+        <img id="originalImage" alt="Original Image" style="max-width: 100%;">
+        <p>Analyzed Image:</p>
+        <img id="resultImage" alt="Result Image" style="max-width: 100%;">
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#analyzeButton").click(function()
+            {
+                var formData = new FormData($("#uploadForm")[0]);
+                $.ajax({
+                    url : "/analyze",
+                    type : "POST",
+                    data : formData,
+                    processData : false,
+                    contentType : false,
+                    success : function(res)
+                    {
+                        console.log(res);
+                        $("#originalImage").attr("src", res.original_image);
+                        $("#resultImage").attr("src", res.result_image);
+                        $("#result").show();
+                    },
+                    error : function(e)
+                    {
+                        console.log(e);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
